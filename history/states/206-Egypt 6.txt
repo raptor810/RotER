@@ -1,0 +1,24 @@
+
+state={
+	id=206
+	name="STATE_206" #beni suef
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+			air_base = 1
+		}
+
+	}
+
+	provinces={
+		933 2229 2816 4383 4386 4392 4397 8729 8730 8731 8734 
+	}
+	manpower=3288219 #2019
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

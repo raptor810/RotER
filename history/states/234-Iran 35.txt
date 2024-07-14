@@ -1,0 +1,22 @@
+
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		171 231 261 301 516 745 1164 1279 1401 1489 2230 2391 2630 2779 3370 3382 3387 3420 
+	}
+	
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

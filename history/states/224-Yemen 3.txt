@@ -1,0 +1,22 @@
+
+state={
+	id=224
+	name="STATE_224"
+	provinces={
+		64 172 509 614 937 959 1133 1188 1261 1443 1444 1502 1703 1721 1744 1784 1838 2135 2592 2596 2820 2840 2850 2915 2992 3066 3084 4943 4953 4955 4958 4962 4963 4964 4966 4967 4970 4972 4973 4974 4975 4976 4977 4981 4982 4983 
+	}
+	
+	history={
+		owner = YEM
+		add_core_of = YEM
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

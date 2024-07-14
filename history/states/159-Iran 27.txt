@@ -1,0 +1,27 @@
+
+state={
+	id=159
+	name="STATE_159"
+	provinces={
+		158 185 243 517 685 698 878 976 1050 1308 1701 2022 2219 2456 2685 2763 3069 4126 4130 4139 4140 4164 4168 4169 4179 4193 
+	}
+
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	resources = {
+		oil = 34
+	} 
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

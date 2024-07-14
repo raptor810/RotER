@@ -1,0 +1,26 @@
+
+state={
+	id=133
+	name="STATE_133"
+	provinces={
+		1413 1861 2442 3592 3608 
+	}
+
+	history = {
+		owner = SYR
+		add_core_of = SYR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 3
+		}
+	}
+
+	resources = {
+		oil = 1
+	} 
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

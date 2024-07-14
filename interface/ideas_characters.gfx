@@ -1,0 +1,150 @@
+spriteTypes = {
+
+    ### ISR
+	
+	spriteType = {
+		name = "GFX_portrait_isr_binyamin_netanyahu_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_binyamin_netanyahu.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_benny_gantz_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_benny_gantz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_ayman_odeh_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_ayman_odeh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_itamar_ben_gvir_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_itamar_ben_gvir.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_aviv_kohavi_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_aviv_kohavi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_aviv_kohavi_small"
+		texturefile = "gfx/characters/ISR/portrait_small_aviv_kohavi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_eyal_zamir_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_eyal_zamir.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_eyal_zamir_small"
+		texturefile = "gfx/characters/ISR/portrait_small_eyal_zamir.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_yoel_strick_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_yoel_strick.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_yoel_strick_small"
+		texturefile = "gfx/characters/ISR/portrait_small_yoel_strick.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_amir_baram_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_amir_baram.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_nadav_padan_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_nadav_padan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_herzi_halevi_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_herzi_halevi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_ohad_najma_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_ohad_najma.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_ohad_najma_small"
+		texturefile = "gfx/characters/ISR/portrait_small_ohad_najma.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_neri_horowitz_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_neri_horowitz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_amir_avstein_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_amir_avstein.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_daniel_hagari_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_daniel_hagari.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_eli_sharvit_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_eli_sharvit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_eli_sharvit_small"
+		texturefile = "gfx/characters/ISR/portrait_small_eli_sharvit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_david_saar_salama_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_david_saar_salama.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_amikam_norkin_small"
+		texturefile = "gfx/characters/ISR/portrait_small_amikam_norkin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_tomer_bar_small"
+		texturefile = "gfx/characters/ISR/portrait_small_tomer_bar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_reuven_rivlin_small"
+		texturefile = "gfx/characters/ISR/portrait_small_reuven_rivlin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_eli_cohen_small"
+		texturefile = "gfx/characters/ISR/portrait_small_eli_cohen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_pnina_tamano_shata_small"
+		texturefile = "gfx/characters/ISR/portrait_small_pnina_tamano_shata.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_yaakov_litzman_small"
+		texturefile = "gfx/characters/ISR/portrait_small_yaakov_litzman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_ofir_akunis_small"
+		texturefile = "gfx/characters/ISR/portrait_small_ofir_akunis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_isr_yitzhak_cohen_small"
+		texturefile = "gfx/characters/ISR/portrait_small_yitzhak_cohen.dds"
+	}
+	
+}

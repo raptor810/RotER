@@ -1,0 +1,27 @@
+state={
+	id=286
+	name="North Gaza"
+	
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = PLS
+		add_core_of = ISR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+
+		}
+		victory_points = {
+			8652 15 
+		}
+	}
+	
+	provinces={
+		8652 8653 
+	}
+	manpower=403400
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

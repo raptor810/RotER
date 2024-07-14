@@ -1,0 +1,21 @@
+state={
+	id=279
+	name="STATE_279"
+	provinces={
+		5019 
+	}
+	
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+		}
+	}
+	
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

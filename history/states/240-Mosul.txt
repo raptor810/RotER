@@ -1,0 +1,26 @@
+
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		8550 8558 8561 
+	}
+	
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		add_claim_by = ASY
+		add_claim_by = KUR
+		add_claim_by = ISL
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+	}
+	
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

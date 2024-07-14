@@ -1,0 +1,27 @@
+
+state={
+	id=43
+	name="STATE_43"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+		
+		victory_points = {
+			8612 30
+		}
+	}
+
+	provinces={
+		1734 1924 2216 2249 2702 3176 3180 3186 3188 3190 3204 8610 8612 8613 8615 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

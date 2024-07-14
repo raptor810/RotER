@@ -1,0 +1,28 @@
+
+state={
+	id=28
+	name="STATE_28"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	resources = {
+		oil = 112
+	} 
+
+	provinces={
+		102 346 1584 1627 2236 2595 2671 2694 2704 2876 4228 4237 4246 4270 4276 4290 4300 4314 4320 4326 4336 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

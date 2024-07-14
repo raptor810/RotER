@@ -1,0 +1,28 @@
+
+state={
+	id=205
+	name="STATE_205" #minyah
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+			air_base = 2
+		}
+
+	}
+
+	resources = {
+		oil = 20 
+	} 
+
+	provinces={
+		330 348 415 572 582 664 666 682 731 998 1254 1275 1283 1334 1500 1612 1685 1788 1921 1934 2012 2028 2031 2133 2206 2377 2416 2495 2513 2515 2827 2895 2906 2981 4377 4380 4382 4385 4388 4393 4395 4401 4412 4417 4418 4420 4421 4424 4427 4429 4430 4431 4433 4435 4440 4445 4446 4447 4449 4453 4456 4457 4462 4463 4472 8796 8797 
+	}
+	manpower=5745212
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=214
+	name="STATE_214"
+	provinces={
+		1123 1295 1700 2887 
+	}
+	
+	history = {
+		owner = GEO
+		add_core_of = GEO
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+	resources = {
+		oil = 1
+	} 
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

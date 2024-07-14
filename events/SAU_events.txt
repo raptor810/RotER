@@ -1,0 +1,64 @@
+#add_namespace = SAU
+#
+###Event: Riyadh's Streets Protests
+#country_event = {
+#	id = SAU.1
+#	title = SAU.1.title
+#	desc = SAU.1.desc
+#	picture = GFX_report_event_spain_civil_war_volunteers_01
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	option = {
+#		name = SAU.1.a
+#		ai_chance = { factor = 1}
+#			add_popularity = {
+#    			ideology = democratic
+#    			popularity = 0.30
+#			}
+#	}
+#}
+#
+### Saud execute 
+#
+#country_event = {
+#	id = SAU.2
+#	title = SAU.2.title
+#	desc = SAU.2.desc
+#	picture = GFX_report_event_crowd_in_prague
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	option = {
+#		name = SAU.2.a
+#		ai_chance = { factor = 1}
+#		set_political_party= { 
+#			ruling_party = democratic
+#		}
+#		stability_factor = -0.5
+#	}
+#}
+#
+####### Arab Gulf pact
+#
+#country_event = {
+#	id = SAU.3
+#	title = SAU.3.title
+#	desc = SAU.3.desc
+#	picture = GFX_report_event_japan_europe_pact
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	option = {
+#		name = SAU.3.a
+#		ai_chance = { factor = 1}
+#			give_guarantee = UAE
+#			give_guarantee = OMA
+#			give_guarantee = KUW
+#			give_guarantee = BHR
+#			give_guarantee = QAT
+#
+#			add_opinion_modifier = { target = UAE modifier = large_increase }
+#			add_opinion_modifier = { target = OMA modifier = large_increase }
+#			add_opinion_modifier = { target = KUW modifier = large_increase }
+#			add_opinion_modifier = { target = BHR modifier = large_increase }
+#			add_opinion_modifier = { target = QAT modifier = large_increase }
+#	}
+#}

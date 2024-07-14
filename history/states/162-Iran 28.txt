@@ -1,0 +1,29 @@
+
+state={
+	id=162
+	name="STATE_162"
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+
+	resources = {
+		oil = 1
+	} 
+
+	provinces={
+		109 233 377 530 714 825 968 1098 1291 1351 1452 2073 2591 2650 2676 2692 2967 3007 3044 3048 3113 3723 3755 3773 3775 3780 3796 3804 3822 3826 3841 3867 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

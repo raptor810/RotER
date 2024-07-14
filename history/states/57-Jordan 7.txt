@@ -1,0 +1,24 @@
+
+state={
+	id=57
+	name="STATE_57"
+
+	history={
+		owner = JOR
+		add_core_of = JOR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		461 1503 1572 1930 2158 2934 4069 4097 4111 4113 4123 4149 4152 4167 4190 4195 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

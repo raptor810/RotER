@@ -1,0 +1,36 @@
+
+state={
+	id=2
+	name="Southern Negev"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_claim_by = PLS
+		add_claim_by = PAL
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			infrastructure = 3
+			air_base = 5
+			8616 = {
+				naval_base = 6
+			}
+
+		}
+        victory_points = {
+			8616 15
+		}
+		victory_points = {
+			4297 3
+		}
+	}
+
+	provinces={
+		578 1663 2482 2781 4235 4259 4281 4297 4299 4319 8616 8617 8618 8619 8620 8621 8622 8623 8624 8625 8626 8627 8628 
+	}
+	manpower=291900
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=281
+	name="Western Macedonia"
+
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+	}
+
+
+	provinces={
+		273 611 700 1525 3203 3207 3225 
+	}
+	manpower=282120
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

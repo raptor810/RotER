@@ -1,0 +1,38 @@
+
+state={
+	id=283
+	name="Ashdod"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_claim_by = PLS
+		add_claim_by = PAL
+		buildings = {
+			arms_factory = 3
+			industrial_complex = 2
+			dockyard = 1
+			infrastructure = 4
+			air_base = 6
+			8657 = {
+				naval_base = 8
+			}
+
+		}
+		victory_points = {
+			8657 20
+		}
+		victory_points = {
+			2346 10 
+		}
+
+	}
+
+	provinces={
+		2346 8657 8656 8655
+	}
+	manpower=579900
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=60
+	name="STATE_60"
+	
+	history = {
+		owner = LEB
+		add_core_of = LEB
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		1271 1699 2297 2965 3747 3749 3753 3756 3791 3792 3797 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

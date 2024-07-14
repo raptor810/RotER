@@ -1,0 +1,22 @@
+
+state={
+	id=268
+	name="STATE_268"
+	provinces={
+		207 725 811 1536 1999 2209 2303 2847 4471 4480 4515 
+	}
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+	manpower=5193052
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

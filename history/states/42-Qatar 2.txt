@@ -1,0 +1,23 @@
+
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		429 1711 1791 1810 2394 2575 2747 3038 4531 4548 4551 4558 4567 4581 4582 
+	}
+	history = {
+		owner = QTR
+		add_core_of = QTR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	resources = {
+		oil = 108
+	} 
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

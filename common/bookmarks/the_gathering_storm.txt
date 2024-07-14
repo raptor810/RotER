@@ -1,0 +1,269 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2020.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "EGY"
+		default = yes
+		
+		"EGY"={
+			history = "EGY_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"SAU"={
+			history = "SAU_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"IRN"={
+			history = "IRN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"IRQ"={
+			history = "IRQ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ISR"={
+			history = "ISR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"TUR"={
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"SYR"={
+			history = "SYR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		
+        #minors
+		
+		"CYG"={
+			minor = yes
+			history = "CYG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"CYT"={
+			minor = yes
+			history = "CYT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"GRE"={
+			minor = yes
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"GEO"={
+			minor = yes
+			history = "GEO_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"AZR"={
+			minor = yes
+			history = "AZR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"ARM"={
+			minor = yes
+			history = "ARM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"LEB"={
+			minor = yes
+			history = "LEB_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"JOR"={
+			minor = yes
+			history = "JOR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"PLS"={
+			minor = yes
+			history = "PLS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"PAL"={
+			minor = yes
+			history = "PAL_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"YEM"={
+			minor = yes
+			history = "YEM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"OMA"={
+			minor = yes
+			history = "OMA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"UAE"={
+			minor = yes
+			history = "UAE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"KUW"={
+			minor = yes
+			history = "KUW_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"QTR"={
+			minor = yes
+			history = "QTR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"BAH"={
+			minor = yes
+			history = "BAH_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

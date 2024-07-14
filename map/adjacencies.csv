@@ -1,0 +1,15 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+### iraq ####
+4290;4276;sea;8590;-1;-1;-1;-1;;Basrah
+4270;1627;sea;8590;-1;-1;-1;-1;;Al-Khudher
+4237;4227;sea;8592;-1;-1;-1;-1;;Al-Khudher
+### egypt ###
+3134;4330;sea;7340;-1;-1;-1;-1;;Ganayen, Suez
+8805;4273;sea;7180;-1;-1;-1;-1;;Ismalia, Suez
+4230;3065;sea;7180;-1;-1;-1;-1;;El-Qantara el-Sharqiya, Suez
+2232;4197;sea;7180;-1;-1;-1;-1;;El.Nasr Floating Bridge, Port Said, Suez
+### turkey ###
+8614;8612;sea;7071;-1;-1;-1;-1;;istanbul
+8614;8613;sea;7071;-1;-1;-1;-1;;istanbul
+8614;8615;sea;7071;-1;-1;-1;-1;;istanbul
+-1;-1;;-1;-1;-1;-1;-1;-1

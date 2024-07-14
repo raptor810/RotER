@@ -1,0 +1,24 @@
+
+state={
+	id=180
+	name="STATE_180"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		121 214 403 757 881 982 1084 1138 1240 1284 1916 2327 2756 3140 3351 3367 3391 3393 3402 8583 8584 8585 8586 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

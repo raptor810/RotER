@@ -1,0 +1,43 @@
+
+state={
+	id=284
+	name="Tel Aviv"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_claim_by = PLS
+		add_claim_by = PAL
+		buildings = {
+			arms_factory = 3
+			industrial_complex = 6
+			dockyard = 1
+			infrastructure = 5
+			air_base = 4
+			8670 = {
+				naval_base = 7
+			}
+			8672 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			8670 45
+		}
+		victory_points = {
+			8666 15
+		}
+		victory_points = {
+			8672 20
+		}
+
+	}
+	
+	provinces={
+		1739 4064 8666 8670 8671 8672 8673 
+	}
+	manpower=2212400
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

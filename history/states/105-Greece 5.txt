@@ -1,0 +1,25 @@
+
+state={
+	id=105
+	name="Epirus"
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+
+		}
+
+	}
+
+	provinces={
+		165 913 1224 1824 2490 2543 2754 3227 3273 
+	}
+	manpower=336650
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

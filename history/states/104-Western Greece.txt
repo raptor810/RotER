@@ -1,0 +1,27 @@
+
+state={
+	id=104
+	name="Western Greece"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1217 1300 1539 2765 2838 2903 3317 
+	}
+	manpower=680190
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

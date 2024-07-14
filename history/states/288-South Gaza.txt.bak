@@ -1,0 +1,32 @@
+
+state={
+	id=288
+	name="South Gaza"
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = PLS
+		add_core_of = ISR
+		buildings = {
+			arms_factory = 1
+			infrastructure = 4
+
+		}
+		victory_points = {
+			8640 20
+		}
+		victory_points = {
+			8638 15
+		}
+
+	}
+
+	provinces={
+		8642 8639 2008 8636 8640 8638
+	}
+	manpower=654200
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

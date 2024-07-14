@@ -1,0 +1,554 @@
+ focus_tree = {
+	id = assyria
+
+continuous_focus_position = { x = 20 y = 2500 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 25
+			tag = ASY
+		}
+}
+#	
+focus = {
+		id = ASY_restoration_of_assyria
+		icon = GFX_goal_generic_major_alliance
+		text = ASY_restoration_of_assyria
+		x = 11
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_political_power = 150
+		}
+	}
+	#
+	###################GENOCIDES############################
+	focus = {
+		id = ASY_address_the_population_crisis
+		icon = GFX_focus_generic_treaty
+		text = ASY_address_the_population_crisis
+		x = 0
+		y = 3
+		relative_position_id = ASY_restoration_of_assyria
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = ASY_restoration_of_assyria
+			}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_stability = 0.05
+		}
+	}
+	#
+	focus = {
+		id = ASY_extended_family_social_benfits
+		icon = GFX_goal_generic_consumer_goods
+		text = ASY_extended_family_social_benfits
+		x = 0
+		y = 1
+		relative_position_id = ASY_address_the_population_crisis
+		cost = 10
+		prerequisite = {
+			focus = ASY_address_the_population_crisis
+			}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = assyrian_genocide
+		add_idea = assyrian_genocide_1
+		}
+		}
+	}
+	#
+	
+	################CHURCH OF THE EAST ######################
+	focus = {
+		id = ASY_trust_in_the_church_of_the_east
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		text = ASY_trust_in_the_church_of_the_east
+		x = 5
+		y = 2
+		relative_position_id = ASY_restoration_of_assyria
+		cost = 10
+		prerequisite = {
+			focus = ASY_restoration_of_assyria
+			}
+			mutually_exclusive = { focus = ASY_a_different_way }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_war_support = -0.1
+		}
+	}
+	#######################DEMOCRACY#############################
+	focus = {
+		id = ASY_democratic_republic 
+		icon = GFX_goal_support_democracy
+		text = ASY_democratic_republic
+		x = 0
+		y = 4
+		relative_position_id = ASY_trust_in_the_church_of_the_east
+		cost = 10
+		prerequisite = {
+			focus = ASY_trust_in_the_church_of_the_east
+			}
+		mutually_exclusive = { focus = ASY_a_assyrian_king }
+		mutually_exclusive = { focus = ASY_nationalist_coup }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		retire_country_leader = yes
+			add_popularity = {
+        ideology = democratic
+        popularity = 0.2
+      }
+	  set_politics = {
+	ruling_party = democratic
+	elections_allowed = yes
+}
+		}
+	}
+	#
+	focus = {
+		id = ASY_more_rights_to_citizens 
+		icon = GFX_goal_generic_improve_relations
+		text = ASY_more_rights_to_citizens
+		x = 0
+		y = 1
+		relative_position_id = ASY_democratic_republic
+		cost = 10
+		prerequisite = {
+			focus = ASY_democratic_republic
+			}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_stability = 0.1
+		add_war_support = 0.15
+		}
+	}
+	#
+	focus = {
+		id = ASY_support_democracy_in_our_neighbors 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_support_democracy_in_our_neighbors
+		x = 0
+		y = 2
+		relative_position_id = ASY_democratic_republic
+		cost = 10
+		prerequisite = {
+			focus = ASY_more_rights_to_citizens
+			}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		SYR = { add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+      }
+	  }
+	  	IRQ = { add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+      }
+	  }
+	  	LEB = { add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+      }
+	  }
+	  	JOR = { add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+      }
+	  }
+	  create_faction = assyrian_sphere
+		}
+	}
+	#
+	focus = {
+		id = ASY_iraq_influence 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_iraq_influence
+		x = -2
+		y = 3
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_support_democracy_in_our_neighbors
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		IRQ = { add_popularity = {
+        ideology = democratic
+        popularity = 0.05
+      }
+	  }
+	  }
+	}
+	focus = {
+		id = ASY_iraq_contuined_influence 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_iraq_contuined_influence
+		x = -2
+		y = 4
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_iraq_influence
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		IRQ = { add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+      }
+	  }
+	  }
+	}
+	focus = {
+		id = ASY_iraq_civil_war 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_iraq_civil_war
+		x = -2
+		y = 5
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_iraq_contuined_influence
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		IRQ = { start_civil_war = {
+				ruling_party = democratic
+				ideology = neutrality
+				size = 0.5
+				capital = 291
+				states = { 
+					675
+				}
+				keep_unit_leaders = {
+					750 751 752
+				}
+			}
+	  }
+	  ASY = { add_to_faction = IRQ }
+	  add_to_war = { 
+    targeted_alliance = ASY 
+    enemy = D01 
+    hostility_reason = asked_to_join
+}
+	  }
+	}
+	#
+	focus = {
+		id = ASY_syria_influence 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_syria_influence
+		available = {
+		has_war	 = no
+		}
+		x = 0
+		y = 3
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_support_democracy_in_our_neighbors
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		SYR = { add_popularity = {
+        ideology = democratic
+        popularity = 0.05
+      }
+	  }
+	  }
+	}
+	focus = {
+		id = ASY_syria_contuined_influence 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_syria_contuined_influence
+		x = 0
+		y = 4
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_syria_influence
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		SYR = { add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+      }
+	  }
+	  }
+	}
+	focus = {
+		id = ASY_syria_civil_war 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_syria_civil_war
+			available = {
+		has_war	 = no
+		is_in_faction_with = IRQ
+		}
+		x =0 
+		y = 5
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_syria_contuined_influence
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		SYR = { start_civil_war = {
+				ruling_party = democratic
+				ideology = neutrality
+				size = 0.5
+				capital = 677
+				states = { 
+					554 
+				}
+				keep_unit_leaders = {
+					750 751 752
+				}
+			}
+	  }
+	   ASY = { add_to_faction = SYR }
+	  add_to_war = { 
+    targeted_alliance = ASY 
+    enemy = D02 
+    hostility_reason = asked_to_join
+}
+	  }
+	  }
+	#
+	focus = {
+		id = ASY_jordan_influence 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_jordan_influence
+		x = 2
+		y = 3
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_support_democracy_in_our_neighbors
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		JOR = { add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+      }
+	  }
+	  }
+	}
+	focus = {
+		id = ASY_jordan_contuined_influence 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_jordan_contuined_influence
+		x = 2
+		y = 4
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_jordan_influence
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		JOR = { add_popularity = {
+        ideology = democratic
+        popularity = 0.05
+      }
+	  }
+	  }
+	}
+	focus = {
+		id = ASY_jordan_civil_war 
+		icon = GFX_focus_hol_the_foundations_of_defense
+		text = ASY_jordan_civil_war
+		available = {
+		has_war	 = no
+		is_in_faction_with = SYR
+		}
+		x = 2
+		y = 5
+		relative_position_id = ASY_support_democracy_in_our_neighbors
+		cost = 10
+		prerequisite = {
+			focus = ASY_jordan_contuined_influence
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		JOR = { start_civil_war = {
+				ruling_party = democratic
+				ideology = neutrality
+				size = 0.5
+				capital = 797
+				states = { 
+					455
+				}
+				keep_unit_leaders = {
+					750 751 752
+				}
+			}
+	  }
+ASY = { add_to_faction = JOR }
+ add_to_war = { 
+    targeted_alliance = ASY 
+    enemy = D03 
+    hostility_reason = asked_to_join
+}
+	  }
+	  }
+	#
+	################################ KING ################################
+	focus = {
+		id = ASY_a_assyrian_king 
+		icon = GFX_focus_generic_home_defense
+		text = ASY_a_assyrian_king
+		x = 10
+		y = 4
+		relative_position_id = ASY_trust_in_the_church_of_the_east
+		cost = 10
+		prerequisite = {
+			focus = ASY_trust_in_the_church_of_the_east
+			}
+		mutually_exclusive = { focus = ASY_democratic_republic }
+		mutually_exclusive = { focus = ASY_nationalist_coup }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+        ideology = neutrality
+        popularity = 0.2
+      }
+		}
+	}
+	################FASCISM################################
+	focus = {
+		id = ASY_nationalist_coup
+		icon = GFX_goal_support_fascism
+		text = ASY_nationalist_coup
+		x = 5
+		y = 4
+		relative_position_id = ASY_trust_in_the_church_of_the_east
+		cost = 10
+		prerequisite = {
+			focus = ASY_trust_in_the_church_of_the_east
+			}
+		mutually_exclusive = { focus = ASY_democratic_republic }
+		mutually_exclusive = { focus = ASY_a_assyrian_king }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.05
+			set_politics = {
+	ruling_party = fascism
+}
+		}
+	}
+	#####################A DIFFERENT DIRECTION############################
+	focus = {
+		id = ASY_a_different_way
+		icon = GFX_goal_support_communism
+		text = ASY_a_different_way
+		x = -5
+		y = 2
+		relative_position_id = ASY_restoration_of_assyria
+		cost = 10
+		prerequisite = {
+			focus = ASY_restoration_of_assyria
+			}
+		mutually_exclusive = { focus = ASY_trust_in_the_church_of_the_east }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.1
+			add_popularity = {
+        ideology = communism
+        popularity = 0.15
+      }
+		}
+	}
+	#
+	}

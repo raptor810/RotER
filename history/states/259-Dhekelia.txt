@@ -1,0 +1,26 @@
+
+state={
+	id=259
+	name="STATE_259"
+
+	history={
+		owner = UNZ
+		add_core_of = UNZ
+		add_core_of = CYP
+		add_claim_by = CYN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		8696 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

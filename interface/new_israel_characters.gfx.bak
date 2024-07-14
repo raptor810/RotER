@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_isr_binyamin_netanyahu_large"
+		texturefile = "gfx/leaders/ISR/portrait_large_binyamin_netanyahu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_isr_reuven_rivlin_small"
+		texturefile = "gfx/characters/ISR/portrait_small_reuven_rivlin.dds"
+	}
+}

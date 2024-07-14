@@ -1,0 +1,29 @@
+
+state={
+	id=1
+	name="STATE_1"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+
+	resources = {
+		oil = 24
+	} 
+
+	provinces={
+		19 321 393 438 486 558 765 812 923 1162 1273 1282 1404 1540 1550 1592 1594 1626 2079 2081 2310 2361 2412 2414 2462 2494 2517 2645 2665 2680 2755 2793 2797 2871 2905 3063 4255 4269 4296 4302 4312 4313 4316 4322 4325 4331 4332 4337 4339 4341 4342 4346 4351 4352 4354 4355 4357 4358 4359 4361 4363 4366 4370 4374 4375 4378 4379 4390 4391 4398 4425 
+	}
+	manpower=105953
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

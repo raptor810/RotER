@@ -1,0 +1,28 @@
+
+state={
+	id=27
+	name="STATE_27"
+
+	history={
+		owner = KUW
+		add_core_of = KUW
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	resources = {
+		oil = 98
+	} 
+
+	provinces={
+		21 1081 1132 2302 2460 4349 4376 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

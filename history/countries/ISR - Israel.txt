@@ -1,0 +1,93 @@
+﻿capital = 256
+
+set_oob = "ISR_2020"
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gwtank = 1
+	fuel_silos = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_convoys = 5
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_refining = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+recruit_character = ISR_binyamin_netanyahu
+recruit_character = ISR_benny_gantz
+recruit_character = ISR_ayman_odeh
+recruit_character = ISR_itamar_ben_gvir
+recruit_character = ISR_aviv_kohavi
+recruit_character = ISR_eyal_zamir
+recruit_character = ISR_yoel_strick
+recruit_character = ISR_amir_baram
+recruit_character = ISR_nadav_padan
+recruit_character = ISR_herzi_halevi
+recruit_character = ISR_ohad_najma
+recruit_character = ISR_neri_horowitz
+recruit_character = ISR_amir_avstein
+recruit_character = ISR_daniel_hagari
+recruit_character = ISR_eli_sharvit
+recruit_character = ISR_david_saar_salama
+recruit_character = ISR_amikam_norkin
+recruit_character = ISR_tomer_bar
+recruit_character = ISR_reuven_rivlin
+recruit_character = ISR_eli_cohen
+recruit_character = ISR_pnina_tamano_shata
+recruit_character = ISR_yaakov_litzman
+recruit_character = ISR_ofir_akunis
+recruit_character = ISR_yitzhak_cohen
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2018.11.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 80
+	fascism = 5
+	communism = 5
+	neutrality = 10
+}

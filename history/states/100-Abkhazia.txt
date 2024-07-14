@@ -1,0 +1,20 @@
+
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		284 1095 2841 2933 3142 
+	}
+	history = {
+		owner = GEO
+		add_core_of = GEO
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

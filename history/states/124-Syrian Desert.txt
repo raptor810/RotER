@@ -1,0 +1,21 @@
+
+state={
+	id=124
+	name="STATE_124"
+	provinces={
+		127 380 399 477 579 802 1319 1360 1575 1716 1851 1963 2144 2180 2188 2217 2353 2877 3118 3784 3793 3799 3805 3825 3836 3849 3861 3869 3871 3880 3898 3913 3927 3934 3949 3971 
+	}
+	history = {
+		owner = SYR
+		add_core_of = SYR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,499 @@
+characters={
+	ISR_binyamin_netanyahu={
+		name=ISR_CHARACTER_BINYAMIN_NETANYAHU
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_binyamin_netanyahu_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits = { hawk dealbroker }
+			desc = ISR_BINYAMIN_NETANYAHU_DESC
+			expire="2040.1.1"
+		}
+	}
+	
+	ISR_benny_gantz={
+		name=ISR_CHARACTER_BENNY_GANTZ
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_benny_gantz_large"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			traits = { retired_officer }
+			desc = ISR_BENNY_GANTZ_DESC
+			expire="2040.1.1"
+		}
+	}
+	
+	ISR_ayman_odeh={
+		name=ISR_CHARACTER_AYMAN_ODEH
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_ayman_odeh_large"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits = { }
+			desc = ISR_AYMAN_ODEH_DESC
+			expire="2040.1.1"
+		}
+	}
+	
+	ISR_itamar_ben_gvir={
+		name=ISR_CHARACTER_ITAMAR_BEN_GVIR
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_itamar_ben_gvir_large"
+			}
+		}
+		country_leader={
+			ideology=fascist_military_dictatorship
+			traits = { dictator nationalist_symbol }
+			desc = ISR_ITAMAR_BEN_GVIR_DESC
+			expire="2040.1.1"
+		}
+	}
+	
+	ISR_aviv_kohavi={
+		name=ISR_CHARACTER_AVIV_KOHAVI
+		portraits={
+			army={
+				large="GFX_portrait_isr_aviv_kohavi_large"
+			}
+			army={
+				small="GFX_portrait_isr_aviv_kohavi_small"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = aviv_kohavi
+			allowed = {
+				original_tag  = ISR
+			}
+			cost = 150
+			traits = {
+				army_chief_defensive_3
+			}
+		}
+		
+		field_marshal={
+			traits={ commando inflexible_strategist career_officer }
+			skill=6
+			attack_skill=4
+			defense_skill=6
+			planning_skill=3
+			logistics_skill=5
+		}
+	}
+	
+	ISR_eyal_zamir={
+		name=ISR_CHARACTER_EYAL_ZAMIR
+		portraits={
+			army={
+				large="GFX_portrait_isr_eyal_zamir_large"
+			}
+			army={
+				small="GFX_portrait_isr_eyal_zamir_small"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = eyal_zamir
+			allowed = {
+				original_tag  = ISR
+			}
+			cost = 150
+			traits = {
+				army_chief_offensive_2
+			}
+		}
+		
+		field_marshal={
+			traits={ armor_officer brilliant_strategist panzer_leader }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	
+	ISR_yoel_strick={
+		name=ISR_CHARACTER_YOEL_STRICK
+		portraits={
+			army={
+				large="GFX_portrait_isr_yoel_strick_large"
+				small="GFX_portrait_isr_yoel_strick_small"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = yoel_strick
+			ledger = army
+			allowed = {
+				original_tag = ISR
+			}
+			cost = 150
+			traits = {
+				army_infantry_2
+			}
+		}
+		
+		corps_commander={
+			traits={ infantry_officer hill_fighter }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	
+	ISR_amir_baram={
+		name=ISR_CHARACTER_AMIR_BARAM
+		portraits={
+			army={
+				large="GFX_portrait_isr_amir_baram_large"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	
+	ISR_nadav_padan={
+		name=ISR_CHARACTER_NADAV_PADAN
+		portraits={
+			army={
+				large="GFX_portrait_isr_nadav_padan_large"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	
+	ISR_herzi_halevi={
+		name=ISR_CHARACTER_HERZI_HALEVI
+		portraits={
+			army={
+				large="GFX_portrait_isr_herzi_halevi_large"
+			}
+		}
+		corps_commander={
+			traits={ commando urban_assault_specialist }
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	
+	ISR_ohad_najma={
+		name=ISR_CHARACTER_OHAD_NAJMA
+		portraits={
+			army={
+				large="GFX_portrait_isr_ohad_najma_large"
+				small="GFX_portrait_isr_ohad_najma_small"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ohad_najma
+			ledger = army
+			allowed = {
+				original_tag = ISR
+			}
+			cost = 150
+			traits = {
+				army_armored_2
+			}
+		}
+		
+		corps_commander={
+			traits={ armor_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	
+	ISR_neri_horowitz={
+		name=ISR_CHARACTER_NERI_HOROWITZ
+		portraits={
+			army={
+				large="GFX_portrait_isr_neri_horowitz_large"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	
+	ISR_amir_avstein={
+		name=ISR_CHARACTER_AMIR_AVSTEIN
+		portraits={
+			army={
+				large="GFX_portrait_isr_amir_avstein_large"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	
+	ISR_daniel_hagari={
+		name=ISR_CHARACTER_DANIEL_HAGARI
+		portraits={
+			army={
+				large="GFX_portrait_isr_daniel_hagari_large"
+			}
+		}
+		corps_commander={
+			traits={ commando naval_invader }
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	
+	ISR_eli_sharvit={
+		name=ISR_CHARACTER_ELI_SHARVIT
+		portraits={
+			navy={
+				small="GFX_portrait_isr_eli_sharvit_small"
+			}
+			army={
+				large="GFX_portrait_isr_eli_sharvit_large"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = eli_sharvit
+			allowed = {
+				original_tag = ISR
+			}
+			cost = 150
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
+		}
+		
+		navy_leader={
+			traits={ fleet_protector }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=2
+		}
+	}
+	
+	ISR_david_saar_salama={
+		name=ISR_CHARACTER_DAVID_SAAR_SALAMA
+		portraits={
+			army={
+				large="GFX_portrait_isr_david_saar_salama_large"
+			}
+		}
+		navy_leader={
+			traits={ bold }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=2
+		}
+	}
+	
+	ISR_amikam_norkin={
+		name=ISR_CHARACTER_AMIKAM_NORKIN
+		portraits={
+			army={
+				small="GFX_portrait_isr_amikam_norkin_small"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = amikam_norkin
+			allowed = {
+				original_tag = ISR
+			}
+			cost = 150
+			traits = {
+				air_chief_ground_support_3
+			}
+		}
+	}
+
+	ISR_tomer_bar={
+		name=ISR_CHARACTER_TOMER_BAR
+		portraits={
+			army={
+				small="GFX_portrait_isr_tomer_bar_small"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = tomer_bar
+			ledger = air
+			allowed = {
+				original_tag = ISR
+			}
+			cost = 150
+			traits = {
+				air_close_air_support_3
+			}
+		}
+	}
+	
+	ISR_reuven_rivlin={
+		name=ISR_CHARACTER_REUVEN_RIVLIN
+		portraits={
+			civilian={
+				small="GFX_portrait_isr_reuven_rivlin_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = reuven_rivlin
+			allowed = {
+				original_tag  = ISR
+			}
+			cost = 150
+			traits  = {
+				ISR_president_of_israel
+			}
+		}
+	}
+	
+	ISR_eli_cohen={
+		name=ISR_CHARACTER_ELI_COHEN
+		portraits={
+			civilian={
+				small="GFX_portrait_isr_eli_cohen_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = eli_cohen
+			allowed = {
+				original_tag  = ISR
+			}
+			cost = 150
+			traits  = {
+				ISR_minister_of_the_economy
+			}
+		}
+	}
+	
+	ISR_pnina_tamano_shata={
+		name=ISR_CHARACTER_PNINA_TAMANO_SHATA
+		portraits={
+			civilian={
+				small="GFX_portrait_isr_pnina_tamano_shata_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = pnina_tamano_shata
+			allowed = {
+				original_tag  = ISR
+			}
+			cost = 150
+			traits  = {
+				ISR_minister_of_immigration_and_absorption
+			}
+		}
+	}
+	
+	ISR_yaakov_litzman={
+		name=ISR_CHARACTER_YAAKOV_LITZMAN
+		portraits={
+			civilian={
+				small="GFX_portrait_isr_yaakov_litzman_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yaakov_litzman
+			allowed = {
+				original_tag  = ISR
+			}
+			cost = 150
+			traits  = {
+				ISR_minister_of_health
+			}
+		}
+	}
+	
+	ISR_ofir_akunis={
+		name=ISR_CHARACTER_OFIR_AKUNIS
+		portraits={
+			civilian={
+				small="GFX_portrait_isr_ofir_akunis_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ofir_akunis
+			allowed = {
+				original_tag  = ISR
+			}
+			cost = 150
+			traits  = {
+				ISR_minister_of_science_technology_space
+			}
+		}
+	}
+	
+	ISR_yitzhak_cohen={
+		name=ISR_CHARACTER_YITZHAK_COHEN
+		portraits={
+			civilian={
+				small="GFX_portrait_isr_yitzhak_cohen_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yitzhak_cohen
+			allowed = {
+				original_tag  = ISR
+			}
+			cost = 150
+			traits  = {
+				ISR_minister_of_construction
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=99
+	name="STATE_99"
+	
+	history = {
+		owner = AZR
+		add_core_of = AZR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+
+	resources = {
+		oil = 36
+	} 
+
+	provinces={
+		785 1839 2476 3211 3224 3243 3261 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

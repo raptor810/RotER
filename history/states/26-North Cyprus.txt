@@ -1,0 +1,32 @@
+
+state={
+	id=26
+	name="STATE_26"
+
+	history={
+		owner = CYT
+		add_core_of = CYT
+		add_core_of = CYP
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+		victory_points = {
+			8725 30 
+		}
+
+	}
+
+	resources = {
+		oil = 1
+	} 
+
+	provinces={
+		667 1420 1524 2211 2521 2536 2546 2868 3622 3638 3641 3647 3655 3660 3663 3667 8476 8706 8707 8708 8709 8710 8711 8712 8713 8725 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=city
+}

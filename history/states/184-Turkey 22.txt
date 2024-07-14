@@ -1,0 +1,21 @@
+
+state={
+	id=184
+	name="STATE_184"
+	provinces={
+		89 1574 2074 2201 2619 3019 3372 3375 3398 3415 
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

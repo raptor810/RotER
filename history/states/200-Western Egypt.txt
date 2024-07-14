@@ -1,0 +1,32 @@
+
+state={
+	id=200
+	name="STATE_200"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+			air_base = 8
+		}
+		victory_points = {
+			2527 5
+		}
+		
+
+	}
+
+	resources = {
+		oil = 34
+	} 
+
+	provinces={
+		26 29 356 357 364 481 488 536 552 625 728 778 827 845 884 900 927 1088 1150 1222 1274 1416 1468 1477 1505 1569 1591 1653 1875 1878 1961 1966 2038 2163 2234 2470 2527 2883 3033 3054 4154 4180 4207 4217 4222 4239 4277 4350 8742 8751 8794 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

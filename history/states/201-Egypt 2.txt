@@ -1,0 +1,24 @@
+
+state={
+	id=201
+	name="STATE_201"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 5	#infrastructure = 6 bad level now
+			air_base = 7
+		}
+
+	}
+
+	provinces={
+		1170 1323 1494 1605 1619 1740 1958 2602 2752 4155 4170 4173 4185 4214 4225 4238 4252 4264 4288 8752 8762 8783 8787 
+	}
+	manpower=6404210 #2019
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=32
+	name="STATE_32"
+	
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	resources = {
+		oil = 10
+	} 
+	
+	provinces={
+		479 792 964 1448 1567 1697 1772 1777 2131 2224 2246 2276 2332 2397 2471 2581 2604 2641 2683 2750 2830 2874 2979 4853 4860 4862 4864 4866 4868 4869 4870 4871 4873 4874 4877 4879 4882 4885 4886 4887 4894 4896 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

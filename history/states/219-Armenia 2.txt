@@ -1,0 +1,22 @@
+
+state={
+	id=219
+	name="STATE_219"
+	provinces={
+		1481 1526 
+	}
+	
+	history = {
+		owner = ARM
+		add_core_of = ARM
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

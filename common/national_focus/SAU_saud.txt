@@ -1,0 +1,862 @@
+focus_tree = {
+	id = saud
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAU
+		}
+	}
+	#Focus for Armament Effort
+	focus = {
+		id = SAU_armament_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 33
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_industrial_development }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for Oppose The King
+	focus = {
+		id = SAU_oppose_the_king
+		icon = GFX_focus_generic_monarchy_1
+		x = 17
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = SAU_demand_support_for_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			stability_factor = -0.25	
+			add_popularity = {
+    			ideology = democratic
+    			popularity = 0.15
+			}
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.15
+			}
+		}
+	}
+
+	#Focus for Demand Support For The King
+	focus = {
+		id = SAU_demand_support_for_the_king
+		icon = GFX_goal_generic_dangerous_deal
+		x = 11
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = SAU_oppose_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.20
+			}
+		}
+	}
+
+	#Focus for Develop Tourism In Mecca
+	focus = {
+		id = SAU_develop_tourism_in_mecca
+		icon = GFX_goal_generic_production
+		x = 14
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SAU_oppose_the_king 
+			focus = SAU_demand_support_for_the_king 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for Proclaim Sultanate
+	focus = {
+		id = SAU_proclaim_sultanate
+		icon = GFX_goal_generic_forceful_treaty
+		x = 8
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_bribe_ministers }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_cosmetic_tag = saudia2
+			add_political_power = 300
+			add_stability = 0.1
+			justify_war_goal_time = -0.50
+			#set_rule = { can_only_justify_war_on_threat_country = no }
+		}
+	}
+
+	#Focus for Befriend Middle Eastern Monarchies
+	focus = {
+		id = SAU_befriend_middle_eastern_monarchies
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 10
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_demand_support_for_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+				days = 1 
+				id = SAU.3
+			}
+		}
+	}
+
+	#Focus for Bribe Ministers
+	focus = {
+		id = SAU_bribe_ministers
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 8
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_demand_support_for_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = brb_gov
+		}
+	}
+
+	#Focus for Standardize The Oil Price
+	focus = {
+		id = SAU_standardize_the_oil_price
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 14
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_expand_the_oil_fields }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+
+	#Focus for Expand The Oil Fields
+	focus = {
+		id = SAU_expand_the_oil_fields
+		icon = GFX_goal_generic_oil_refinery
+		x = 14
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_develop_tourism_in_mecca }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource = {
+    			type = oil
+    			amount = 20
+    			state = 678
+			}
+		}
+	}
+
+	#Focus for Form an Alliance
+	focus = {
+		id = SAU_form_an_alliance
+		icon = GFX_goal_generic_political_pressure
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_befriend_middle_eastern_monarchies }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_faction = gulf_cooperation_council
+add_to_faction = UAE
+		}
+	}
+
+	#Focus for Invite Oman
+	focus = {
+		id = SAU_invite_oman
+		icon = GFX_goal_generic_military_deal
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_form_an_alliance }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_faction = OMA
+		}
+	}
+
+	#Focus for Invite Kuwait
+	focus = {
+		id = SAU_invite_kuwait
+		icon = GFX_goal_generic_military_deal
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_form_an_alliance }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_faction = KUW
+		}
+	}
+
+	#Focus for Invite Qatar
+	focus = {
+		id = SAU_invite_qatar
+		icon = GFX_goal_generic_military_deal
+		x = 11
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_form_an_alliance }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_faction = QAT
+		}
+	}
+
+	#Focus for Invite Bahrain
+	focus = {
+		id = SAU_invite_bahrain
+		icon = GFX_goal_generic_military_deal
+		x = 13
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_form_an_alliance }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_faction = BHR
+		}
+	}
+
+	#Focus for Pressure Yemeni Dictatorship
+	focus = {
+		id = SAU_pressure_yemeni_dictatorship
+		icon = GFX_goal_generic_propaganda
+		x = 5
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_demand_support_for_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for End Hassan's Leadership
+	focus = {
+		id = SAU_end_hassans_leadership
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_pressure_yemeni_dictatorship }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Take Rabbath
+	focus = {
+		id = SAU_take_rabbath
+		icon = GFX_focus_secret_rearmament
+		x = 6
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_proclaim_sultanate }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+type = annex_everything 
+target = JOR
+}
+		}
+	}
+
+	#Focus for Puppet Iraq
+	focus = {
+		id = SAU_puppet_iraq
+		icon = GFX_focus_secret_rearmament
+		x = 5
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_take_rabbath }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+   				type = puppet_wargoal_focus
+    			target = IRQ
+			}
+		}
+	}
+
+	#Focus for Riyadh's Streets
+	focus = {
+		id = SAU_riyadhs_streets
+		icon = GFX_goal_generic_propaganda
+		x = 18
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_oppose_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+		days = 1 
+		id = SAU.1
+		}
+		}
+	}
+
+	#Focus for Execute The King
+	focus = {
+		id = SAU_execute_the_king
+		icon = GFX_focus_rom_handle_king
+		x = 17
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_riyadhs_streets }
+		mutually_exclusive = { focus = SAU_enact_a_formal_constitution }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			
+			country_event= {
+				days = 1 
+				id = SAU.2
+			}
+
+		}
+	}
+
+	#Focus for Enact a Formal Constitution
+	focus = {
+		id = SAU_enact_a_formal_constitution
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 19
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_riyadhs_streets }
+		mutually_exclusive = { focus = SAU_execute_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas = sharia
+			add_stability = 0.2
+			add_war_support = -0.1
+			
+		}
+	}
+
+	#Focus for a New Country
+	focus = {
+		id = SAU_a_new_country
+		icon = GFX_goal_support_democracy
+		x = 18
+		y = 3
+		cost = 10
+		available = {	
+			has_government = democratic
+		}
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SAU_execute_the_king 
+			focus = SAU_enact_a_formal_constitution 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 150	
+		}
+	}
+
+	#Focus for The Red Sea Pact
+	focus = {
+		id = SAU_the_red_sea_pact
+		icon = GFX_goal_generic_alliance
+		x = 21
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_oppose_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_rule = {
+    			an_create_factions = yes
+			}
+			create_faction = red_sea_pact
+			add_to_faction = EGY
+		}
+	}
+
+	#Focus for Invite Israel
+	focus = {
+		id = SAU_invite_israel
+		icon = GFX_goal_generic_military_deal
+		x = 21
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_the_red_sea_pact }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_faction = ISR
+		}
+	}
+
+	#INVITE JORDEN
+	focus = {
+		id = SAU_show_yemen_the_path_of_democracy
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 21
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_invite_israel }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_faction = JOR
+		}
+	}
+
+	#Focus for Reforms In The Government
+	focus = {
+		id = SAU_reforms_in_the_government
+		icon = GFX_goal_generic_neutrality_focus
+		x = 18
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_a_new_country }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+
+	#Focus for Oppose Extremists
+	focus = {
+		id = SAU_oppose_extremists
+		icon = GFX_goal_generic_position_armies
+		x = 24
+		y = 1
+		cost = 10
+		available = {
+			has_completed_focus = SAU_a_new_country
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_oppose_the_king }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.3
+		}
+	}
+
+	#Focus for Liberate Iraq
+	focus = {
+		id = SAU_liberate_iraq
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 23
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_oppose_extremists }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+				type = puppet_wargoal_focus
+				target = IRQ
+			}
+		}
+	}
+
+	#Focus for Liberate Persia
+	focus = {
+		id = SAU_liberate_persia
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 25
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_oppose_extremists }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+				type = puppet_wargoal_focus
+				target = PER
+			}
+		}
+	}
+
+	#Focus for Crush The Emirate System
+	focus = {
+		id = SAU_crush_the_emirate_system
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		x = 24
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SAU_liberate_persia 
+			focus = SAU_liberate_iraq 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+				type = puppet_wargoal_focus
+				target = UAE
+			}
+		}
+	}
+
+	#Focus for Free The Arabian Peninsula
+	focus = {
+		id = SAU_free_the_arabian_peninsula
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 24
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_crush_the_emirate_system }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+				type = puppet_wargoal_focus
+				target = BHR
+			}
+			create_wargoal= { 
+				type = puppet_wargoal_focus
+				target = QAT
+			}
+			create_wargoal= { 
+				type = puppet_wargoal_focus
+				target = OMA
+			}
+			create_wargoal= { 
+				type = puppet_wargoal_focus
+				target = YEM
+			}
+			create_wargoal= { 
+				type = puppet_wargoal_focus
+				target = KUW
+			}
+		}
+		
+	}
+
+	#Focus for Industrial Development
+	focus = {
+		id = SAU_industrial_development
+		icon = GFX_goal_generic_position_armies
+		x = 32
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 0.75
+    			uses = 2
+    			category = industry
+			}
+		}
+	}
+
+	#Focus for Contraction Effort
+	focus = {
+		id = SAU_contraction_effort
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 31
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_industrial_development }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ 				limit = {
+ 					free_building_slots = {
+ 					building = industrial_complex
+ 					size > 0
+ 					include_locked = yes
+ 					}
+
+ 				}
+
+ 			add_extra_state_shared_building_slots = 1
+ 			add_building_construction = {
+ 			type = industrial_complex
+ 			level = 2
+ 			instant_build = yes
+ 		}
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for Contraction Effort II
+	focus = {
+		id = SAU_contraction_effort_ii
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 31
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_contraction_effort }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ 				limit = {
+ 					free_building_slots = {
+ 					building = industrial_complex
+ 					size > 0
+ 					include_locked = yes
+ 					}
+
+ 				}
+
+ 			add_extra_state_shared_building_slots = 1
+ 			add_building_construction = {
+ 			type = industrial_complex
+ 			level = 2
+ 			instant_build = yes
+ 		}
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for Armament Effort II
+	focus = {
+		id = SAU_armament_effort_ii
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 33
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_armament_effort }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for Extra Research Slot
+	focus = {
+		id = SAU_extra_research_slot
+		icon = GFX_goal_generic_scientific_exchange
+		x = 32
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SAU_armament_effort_ii 
+		}
+		prerequisite = { 
+			focus = SAU_contraction_effort_ii 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_research_slot= 1
+		}
+	}
+
+	#Focus for Arabian War Economy
+	focus = {
+		id = SAU_arabian_war_economy
+		icon = GFX_goal_generic_production2
+		x = 32
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SAU_extra_research_slot }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+#End of focuses 
+ }

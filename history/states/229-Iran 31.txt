@@ -1,0 +1,24 @@
+
+state={
+	id=229
+	name="STATE_229"
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		601 1325 1457 1654 1834 1984 2001 2501 2505 3104 3428 3503 8477 8479 8484 8485 8489 8490 8491 8492 8494 8496 8497 8498 8499 8500 8501 8503 8504 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=238
+	name="STATE_238"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		8516 8520 8524 8533 8535 8542 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

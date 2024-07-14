@@ -1,0 +1,24 @@
+
+state={
+	id=103
+	name="Aegean Islands"
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1180 2281 2540 3311 3318 3332 
+	}
+	manpower=197810
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

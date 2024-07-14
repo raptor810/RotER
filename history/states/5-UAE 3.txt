@@ -1,0 +1,28 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		owner = UAE
+		add_core_of = UAE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	resources = {
+		oil = 86
+	}
+
+	provinces={
+		110 905 1287 1523 1534 2267 2338 2661 2697 2731 2739 2853 2971 4717 4728 4730 4732 4738 4757 8473 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

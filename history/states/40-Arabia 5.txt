@@ -1,0 +1,22 @@
+
+state={
+	id=40
+	name="STATE_40"
+	
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		268 294 564 1034 1733 1815 2067 2082 2090 2682 2795 2993 3032 4875 4876 4878 4880 4881 4888 4889 4895 4898 4899 4900 4904 4905 4907 4908 4910 4911 4912 4919 4920 4921 4927 4930 4934 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

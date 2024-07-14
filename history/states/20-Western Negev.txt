@@ -1,0 +1,32 @@
+
+state={
+	id=20
+	name="Western Negev"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_claim_by = PLS
+		add_claim_by = PAL
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3
+			infrastructure = 3
+			air_base = 4
+
+		}
+        victory_points = {
+			4187 20
+		}
+		victory_points = {
+			8643 5
+		}
+	}
+
+	provinces={
+		1052 2434 3106 4177 4187 4191 4198 4215 8629 8630 8631 8633 8634 8635 8637 8641 8643 8647 
+	}
+	manpower=681250
+	buildings_max_level_factor=1.000
+	state_category=city
+}

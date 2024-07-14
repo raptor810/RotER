@@ -1,0 +1,81 @@
+ideas = {
+
+	country = {
+		christian  = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			democratic_acceptance = 15
+			}
+			rule = {
+			}
+		}
+		#
+		the_best_ecomoney_of_the_east  = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_industrial_complex_factor = 0.15
+			production_speed_infrastructure_factor = 0.2
+			}
+			rule = {
+			}
+		}
+		#
+		assyrian_genocide  = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			conscription_factor = -0.65
+			}
+			rule = {
+			can_create_factions = yes
+			}
+		}
+			assyrian_genocide_1  = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			conscription_factor = -0.55
+			}
+			rule = {
+			}
+		}
+		}
+		}

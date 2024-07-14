@@ -1,0 +1,6 @@
+#PAL
+
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d 
+
+color = rgb { 28 78 35 }

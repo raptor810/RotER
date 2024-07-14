@@ -1,0 +1,26 @@
+
+state={
+	id=222
+	name="STATE_222"
+	provinces={
+		59 126 212 236 367 431 443 609 689 702 751 945 978 1160 1183 1192 1321 1342 1384 1449 1516 1647 1688 1758 1759 1828 1955 1971 2588 2764 2886 3040 3102 4944 4951 4952 4957 4960 4961 4965 4968 4969 4978 4980 
+	}
+	
+	history={
+		owner = YEM
+		add_core_of = YEM
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	resources = {
+		oil = 5
+	}
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

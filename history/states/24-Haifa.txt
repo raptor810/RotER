@@ -1,0 +1,42 @@
+
+state={
+	id=24
+	name="Haifa"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_claim_by = PLS
+		add_claim_by = PAL
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 4
+			dockyard = 1
+			infrastructure = 5
+			8675 = {
+				naval_base = 10
+			}
+			2736 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			8675 40 
+		}
+		victory_points = {
+			1193 5 
+		}
+		victory_points = {
+			2736 15 
+		}
+
+	}
+
+	provinces={
+		80 1193 2736 2751 3985 8674 8675 8676 8677 
+	}
+	manpower=1430500
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

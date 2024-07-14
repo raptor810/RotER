@@ -1,0 +1,24 @@
+
+state={
+	id=106
+	name="Central Macedonia"
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		397 453 549 847 849 1177 1362 1914 2424 2640 3178 3212 3222 3237 4998 8603 8606 8607 
+	}
+	manpower=1874590
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

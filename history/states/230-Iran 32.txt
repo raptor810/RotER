@@ -1,0 +1,24 @@
+
+state={
+	id=230
+	name="STATE_230"
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		690 760 783 914 1080 1441 1566 2616 3543 3604 3617 3649 3671 3690 8483 8487 8512 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=93
+	name="STATE_93"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	resources = {
+		oil = 6
+	} 
+
+	provinces={
+		546 853 863 1242 1251 1391 1392 1580 2013 2136 2258 2413 2421 2578 2799 2843 2866 2955 2958 2998 3023 3091 3138 3855 3866 3888 3891 3896 3901 3922 3923 3941 3957 3958 3977 4000 4001 4030 4077 4106 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=163
+	name="STATE_163"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		add_core_of = KUR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		296 787 828 1227 1231 1301 1630 1903 2179 3621 3696 3710 8509 8510 8511 8514 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=158
+	name="STATE_158"
+	provinces={
+		227 310 435 522 568 569 730 774 1089 1382 1460 1570 1680 1737 2101 2583 2621 2657 2668 2788 2890 2950 3005 3043 3991 3998 4009 4020 4039 4061 4071 4079 4091 4098 4102 4104 4110 4114 4118 4122 4128 
+	}
+
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

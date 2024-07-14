@@ -1,0 +1,24 @@
+
+state={
+	id=272
+	name="STATE_272"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+			air_base = 5
+		}
+
+	}
+
+	provinces={
+		2118 2143 4265 8765 8768 8770 8825 
+	}
+	manpower=4441717
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

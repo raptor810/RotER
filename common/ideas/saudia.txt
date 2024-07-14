@@ -1,0 +1,108 @@
+ideas = {
+
+	country = {
+		sharia = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.05
+			}
+			rule = {
+			}
+		}
+
+		oil_maker = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_oil_factor = 0.2
+			}
+			rule = {
+			}
+		}
+
+		rmp = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.15
+				offence = 0.05
+				production_speed_arms_factory_factor = 0.1
+			}
+			rule = {
+			}
+		}
+		#
+		ind_pw  = {
+			
+			allowed = {
+				always = no
+			} ######### 
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+					production_speed_industrial_complex_factor = 0.15
+					production_speed_infrastructure_factor = 0.2
+			}
+			rule = {
+			#can_create_factions = yes
+			}
+		}
+		#
+		brb_gov  = {
+			
+			allowed = {
+				always = no
+			} ######### 
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_advisor_cost_factor = -0.5
+				trade_laws_cost_factor = -0.5
+				mobilization_laws_cost_factor = -0.5
+				economy_cost_factor = -0.5
+			}
+			rule = {
+			#can_create_factions = yes
+			}
+		}
+	}
+}
+		

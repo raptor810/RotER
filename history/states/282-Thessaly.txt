@@ -1,0 +1,25 @@
+
+state={
+	id=282
+	name="Thessaly"
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+
+	provinces={
+		30 376 773 1409 1415 1458 1590 1856 2489 2844 3130 3292 3293 
+	}
+	manpower=730730
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

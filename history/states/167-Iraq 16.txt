@@ -1,0 +1,28 @@
+
+state={
+	id=167
+	name="STATE_167"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	resources = {
+		oil = 2
+	} 
+
+	provinces={
+		703 1475 1871 2270 2450 2605 2831 3012 3030 3075 3132 3731 3735 3752 3767 3772 3774 3783 3807 3830 3844 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

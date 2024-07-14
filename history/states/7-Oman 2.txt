@@ -1,0 +1,22 @@
+
+state={
+	id=7
+	name="STATE_7"
+	
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		150 1751 2037 4526 4541 4552 4560 4571 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

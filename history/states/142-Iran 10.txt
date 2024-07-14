@@ -1,0 +1,26 @@
+
+state={
+	id=142
+	name="STATE_142"
+	provinces={
+		16 220 483 599 761 870 904 1268 1381 1937 2250 4371 4407 4422 4426 
+	}
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	resources = {
+		oil = 2
+	} 
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=33
+	name="STATE_33"
+	
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	resources = {
+		oil = 36
+	} 
+	
+	provinces={
+		37 117 398 542 859 1535 1660 2367 3058 4836 4844 4859 4861 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

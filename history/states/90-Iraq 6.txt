@@ -1,0 +1,24 @@
+
+state={
+	id=90
+	name="STATE_90"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		179 237 378 1292 1423 1595 1897 2041 2181 2200 2426 2677 3757 3770 3781 3795 3817 3838 3847 3852 3854 3865 3874 3886 3899 3906 3915 3930 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

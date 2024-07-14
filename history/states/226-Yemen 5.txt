@@ -1,0 +1,26 @@
+
+state={
+	id=226
+	name="STATE_226"
+	provinces={
+		105 145 152 408 430 472 476 628 632 683 697 932 1078 1141 1157 1181 1259 1335 1356 1417 1636 1681 1712 1725 1949 2293 2503 2508 2614 2660 2784 2859 4942 4950 4954 4956 4959 
+	}
+	
+	history={
+		owner = YEM
+		add_core_of = YEM
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	resources = {
+		oil = 3
+	}
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

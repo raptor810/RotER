@@ -1,0 +1,30 @@
+state={
+	id=287
+	name="Central Gaza"
+	
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = PLS
+		add_core_of = ISR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+
+		}
+		victory_points = {
+			8649 10
+		}
+		victory_points = {
+			8645 5
+		}
+	}
+	
+	provinces={
+		8645 8646 8648 8649 
+	}
+	manpower=294200
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

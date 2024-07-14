@@ -1,0 +1,27 @@
+
+state={
+	id=45
+	name="STATE_45"
+	
+	history = {
+		owner = KUW
+		add_core_of = KUW
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		854 1818 4381 4396 4400 
+	}
+	
+	resources = {
+		oil = 276
+	}
+	
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

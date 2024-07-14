@@ -1,0 +1,26 @@
+
+state={
+	id=215
+	name="STATE_215"
+	provinces={
+		798 2285 3206 
+	}
+	history = {
+		owner = AZR
+		add_core_of = AZR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+
+	resources = {
+		oil = 8
+	} 
+	
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,31 @@
+state={
+	id=256
+	name="Jerusalem"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_core_of = PLS
+		add_core_of = PAL
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			infrastructure = 5		# 10 bad level now
+
+		}
+		
+		victory_points = {
+			8661 50
+		}
+
+	}
+
+	
+
+	provinces={
+		8661 
+	}
+	manpower=1245100
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

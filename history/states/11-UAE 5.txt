@@ -1,0 +1,26 @@
+
+state={
+	id=11
+	name="STATE_11"
+	
+	history = {
+		owner = UAE
+		add_core_of = UAE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+		
+		victory_points = {
+			1272 30
+		}
+	}
+	
+	provinces={
+		464 1057 1272 2468 4555 4564 4572 4576 4587 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

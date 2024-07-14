@@ -1,0 +1,25 @@
+
+state={
+	id=136
+	name="STATE_136"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = SYR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		291 1310 1332 1587 2032 2204 2474 3027 3462 3464 3482 3518 3524 3536 3537 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

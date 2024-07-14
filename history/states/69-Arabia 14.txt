@@ -1,0 +1,26 @@
+
+state={
+	id=69
+	name="STATE_69"
+	
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	resources = {
+		oil = 14
+	} 
+	
+	provinces={
+		50 131 147 199 225 252 485 528 776 782 1060 1281 1582 1651 2923 3085 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

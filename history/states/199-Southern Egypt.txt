@@ -1,0 +1,24 @@
+
+state={
+	id=199
+	name="STATE_199"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+			air_base = 2
+		}
+
+	}
+
+	provinces={
+		39 90 238 311 312 657 1039 1093 1377 1461 2052 2901 2973 4573 4578 4594 4603 4616 4654 4664 4731 4748 4751 4780 4784 4789 4791 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

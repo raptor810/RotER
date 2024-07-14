@@ -1,0 +1,21 @@
+
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		421 766 822 936 988 1073 1108 1499 1515 1533 2177 2533 2658 2835 2911 3002 3052 3098 3469 3481 3490 3493 3502 3525 3541 3551 3555 3564 3568 3579 3596 3603 3614 3624 
+	}
+
+	history = {
+		owner = SYR
+		add_core_of = SYR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 3
+		}
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

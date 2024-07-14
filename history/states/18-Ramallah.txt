@@ -1,0 +1,41 @@
+
+state={
+	id=18
+	name="Ramallah"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = PLS
+		add_core_of = PLS
+		add_core_of = PAL
+		add_claim_by = ISR
+		buildings = {
+			industrial_complex = 3
+			infrastructure = 3
+
+		}
+		victory_points = {
+			4055 10 
+		}
+		victory_points = {
+			4099 20 
+		}
+		victory_points = {
+			1097 15 
+		}
+		victory_points = {
+			8668 5 
+		}
+
+	}
+
+	provinces={
+		1097 4099 8662 8664 8668 8669 
+	}
+	manpower=654200
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

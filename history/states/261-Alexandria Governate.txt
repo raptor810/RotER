@@ -1,0 +1,32 @@
+
+state={
+	id=261
+	name="STATE_261"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 5			# 10
+			air_base = 5
+		}
+		victory_points = {
+			8782 30
+		}
+		victory_points = {
+			8774 5
+		}
+		victory_points = {
+			8779 7
+		}
+	}
+
+	provinces={
+		8767 8773 8774 8775 8777 8778 8779 8780 8781 8782 8784 8785 8786 
+	}
+	manpower=5299718	#2019
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

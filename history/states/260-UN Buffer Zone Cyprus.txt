@@ -1,0 +1,26 @@
+
+state={
+	id=260
+	name="STATE_260"
+	
+	history={
+		owner = UNZ
+		add_core_of = UNZ
+		add_core_of = CYP
+		add_core_of = CYN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+	
+	provinces={
+		8703 8714 8715 8717 8718 8719 8721 8723 8724 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=35
+	name="STATE_35"
+	
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		65 263 417 636 653 902 918 1189 1514 1665 2002 2156 3062 3101 4766 4779 4793 4805 4807 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

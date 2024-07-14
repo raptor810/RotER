@@ -1,0 +1,29 @@
+
+state={
+	id=46
+	name="STATE_46"
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+
+	resources = {
+		oil = 92
+	} 
+
+	provinces={
+		684 693 1464 1632 1865 2061 2116 2183 2744 2753 2759 4221 4224 4244 4304 4307 4309 4328 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

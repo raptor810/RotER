@@ -1,0 +1,23 @@
+
+state={
+	id=157
+	name="STATE_157"
+	provinces={
+		66 87 324 372 630 663 704 1010 1367 1403 1463 1559 1690 1967 2035 2040 2152 2205 2354 2363 2368 2422 2447 2484 2488 2631 2652 2777 2918 2945 2977 3024 3513 3517 3546 3547 3548 3554 3563 3566 3573 3576 3577 3581 3588 3593 3594 3595 3597 3598 3606 3607 3618 3630 3636 3637 3639 3662 3685 3693 
+	}
+
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

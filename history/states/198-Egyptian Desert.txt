@@ -1,0 +1,24 @@
+
+state={
+	id=198
+	name="STATE_198"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		36 41 42 49 55 72 79 81 111 115 146 149 173 215 216 322 328 337 340 350 358 382 384 400 420 480 554 576 603 691 805 866 911 934 953 1021 1061 1109 1125 1258 1302 1376 1527 1880 1888 1979 1997 1998 2075 2148 2240 2500 3088 4470 4490 4496 4497 4500 4550 4613 4622 4666 4735 8789 8790 8791 8792 8793 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

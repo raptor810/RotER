@@ -1,0 +1,25 @@
+
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		2042 4514 4530 4535 4540 
+	}
+	history = {
+		owner = BAH
+		add_core_of = BAH
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 4
+		}
+	}
+
+	resources = {
+		oil = 24
+	} 
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

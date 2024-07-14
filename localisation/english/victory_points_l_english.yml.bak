@@ -1,0 +1,61 @@
+﻿l_english:
+    VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+
+    ### ISRAEL ###
+    VICTORY_POINTS_8661:0 "Jerusalem"
+    VICTORY_POINTS_8670:0 "Tel Aviv-Yafo"
+    VICTORY_POINTS_8666:0 "Rishon LeZion" 
+    VICTORY_POINTS_8657:0 "Ashdod" 
+    VICTORY_POINTS_2346:0 "Ashkelon" 
+    VICTORY_POINTS_8672:0 "Netanya" 
+    VICTORY_POINTS_8675:0 "Haifa"
+    VICTORY_POINTS_4010:0 "Tiberias"
+    VICTORY_POINTS_1193:0 "Nahariya"
+    VICTORY_POINTS_155:0 "Katzrin"
+    VICTORY_POINTS_3003:0 "Ramla"
+    VICTORY_POINTS_8665:0 "Petah Tikva"
+    VICTORY_POINTS_2736:0 "Hadera"
+    VICTORY_POINTS_4187:0 "Be'er Sheva"
+    VICTORY_POINTS_107:0 "Arad"
+    VICTORY_POINTS_8616:0 "Eilat"
+    VICTORY_POINTS_2796:0 "Dimona"
+    VICTORY_POINTS_4297:0 "Mitzpe Ramon"
+    VICTORY_POINTS_8643:0 "Sderot"
+    
+    ### GAZA ###
+    VICTORY_POINTS_8638:0 "Rafah"
+    VICTORY_POINTS_8640:0 "Khan Yunis"
+    VICTORY_POINTS_8645:0 "Deir al-Balah"
+    VICTORY_POINTS_8649:0 "Nuseirat"
+    VICTORY_POINTS_8651:0 "Gaza"
+    VICTORY_POINTS_8652:0 "Jabalia"
+    
+    ### PALESTINE ###
+    VICTORY_POINTS_8660:0 "East Jerusalem"
+    VICTORY_POINTS_4055:0 "Jenin"
+    VICTORY_POINTS_2251:0 "Hebron"
+    VICTORY_POINTS_4099:0 "Nablus"
+    VICTORY_POINTS_1097:0 "Ramallah"
+    VICTORY_POINTS_3116:0 "Bethlehem"
+    VICTORY_POINTS_8668:0 "Qalqiya"
+    VICTORY_POINTS_1126:0 "Jericho"
+    
+    ### CYPRUS ###
+    VICTORY_POINTS_8722:0 "Nicosia" 
+    VICTORY_POINTS_8725:0 "North Nicosia"
+
+    ### EGYPT ###
+    VICTORY_POINTS_8758: "Giza"
+    VICTORY_POINTS_8746: "Helwan"
+    VICTORY_POINTS_8755: "Cairo"
+    VICTORY_POINTS_2232: "Port Said" 
+    VICTORY_POINTS_3065: "El-Qantara el-Sharqîya" 
+    VICTORY_POINTS_4230: "El-Qantara el-Gharbîya" 
+    VICTORY_POINTS_8782: "Alexandria" 
+    VICTORY_POINTS_8779: "Agamy" 
+    VICTORY_POINTS_8774: "New Borg El-Arab City" 
+    VICTORY_POINTS_2527: "Marsa Matruh" 
+    
+    ### TURKEY ###
+    VICTORY_POINTS_8612: "East Istanbul"
+    VICTORY_POINTS_8614: "Istanbul"
